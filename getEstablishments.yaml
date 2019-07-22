@@ -1,0 +1,24 @@
+---
+swagger: "2.0"
+info:
+  description: |
+    get Establishments .
+  version: 0.0.1
+  title: get Establishments
+host: 95.177.222.35:8080
+schemes:
+- http
+paths:
+  /getEstablishments:
+    get:
+      summary: get Establishments
+      description: get Establishments
+      parameters:
+      - name: licenceNumber
+        in: query
+        required: true
+        type: string
+      responses:
+        200:
+          description: OK
+definitions: {}
