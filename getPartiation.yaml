@@ -1,4 +1,4 @@
----
+
 swagger: "2.0"
 info:
   description: |
@@ -21,4 +21,4 @@ paths:
       responses:
         200:
           description: OK
-definitions: {}
+
