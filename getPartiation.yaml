@@ -1,0 +1,24 @@
+---
+swagger: "2.0"
+info:
+  description: |
+    Get Get Partitioner .
+  version: 0.0.1
+  title: Get Partitioner
+host: 95.177.222.35:8080
+schemes:
+- http
+paths:
+  /v1/api/getPractitionersWithSCFHS:
+    get:
+      summary: get partitioner
+      description: get partitioner
+      parameters:
+      - name: regNum
+        in: query
+        required: false
+        type: string
+      responses:
+        200:
+          description: OK
+definitions: {}
